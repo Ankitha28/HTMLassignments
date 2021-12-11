@@ -1,0 +1,82 @@
+body {
+ background-color: lightsalmon;
+}
+.container{
+    background-color: navy;
+    margin: 100px 400px 0px 400px;
+    border-radius: 10px;
+    
+}
+.container img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.container h2{
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.container p{
+    font-family:sans-serif;
+    color: whitesmoke;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 5px;
+   
+}
+.form1{
+
+   margin: 10px 10px 0px 10px;
+   text-align: center;
+   padding-bottom: 30px;
+   
+}
+ .form1 input{
+   width: 80%;
+   height: 25px;
+   padding: 5px;
+   border: none;
+   border-bottom:2px solid white ;
+   margin: 10px 10px 10px 10px;
+   background-color: navy;
+   
+}
+
+
+.form1 button{
+    width: 80%;
+    height: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    border : none;
+    background-color: lightblue;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+ }
+.a1{
+    text-decoration: none;
+    font-family: Georgia;
+    font-weight: 400;
+    margin-left: 50%;
+    color: black;
+}
+ .a2{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+.a2:hover{
+    background-color: black;
+    color: lightslategrey;
+    padding: 5px;
+}

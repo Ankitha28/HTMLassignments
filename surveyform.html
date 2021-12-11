@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+     <!-- External CSS -->
+     <link rel="stylesheet" type="text/css" href="surveyform.css">
+</head>
+
+<body>
+    <h1 class="text-center pt-4 font-italic"><u>Product Survey Form</u></h1>
+    <div class="container" style="width: 60%;">
+    <!-- Form starts-->
+    <form class="form mt-5 pb-3 border border-dark bg-dark rounded ">
+
+       <div class="form-group m-3">
+          <label class= "font-weight-bold">Name:</label>
+          <input type="text" class="form-control" placeholder="Enter name">
+        </div>
+        <div class="form-group m-3">
+         <label class= "font-weight-bold">Email address:</label>
+           <input type="email" class="form-control" placeholder="Enter email">
+        </div>
+
+        <!--Radio button control-->
+        <div class="m-3">
+        <span class= "font-weight-bold">How would you rate the quality of the product?</span>
+        <div class="form-check ">
+           <label class="form-check-label">
+              <input type="radio" class="form-check-input">Very high qualtiy
+            </label>
+          </div>
+         <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input">High quality
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input">Neither high or low quality
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input">Low quality
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input">Very low qualtiy
+            </label>
+          </div>
+        </div>
+          <!-- Radio button control ends here-->
+        
+        <!--Drpdown menu-->
+        
+        <div class="form-group m-3">
+            <label class= "font-weight-bold">How long have you been the customer for our company?</label>
+            <select class="form-control">
+                <option value="selected disabled">Select from the list</option>
+              <option>This is my first time</option>
+              <option>Less than 6 months</option>
+              <option>More than 6 months</option>
+              <option>Around 1- 2 years</option>
+            </select>
+        </div>
+        <!--Dropdown menu ends-->
+
+        
+        <!-- Checkbox control-->
+        <div class="m-3">
+        <span class= "font-weight-bold">How would you describe the product?</span>
+        <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">Effective
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">Useful
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">Good value for money
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">Poor quality
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">Ineffective
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">Unrelaible
+            </label>
+          </div>
+        </div>
+          <!--Check box ends here -->
+
+          <!--Radio button-->
+        <div class="m-3">
+        <span class= "font-weight-bold">Are you satisfied with the product?</span><br>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input">Satisfied
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input">Neither satisfied nor dissatisfied
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input">Dissatisfied
+            </label>
+          </div>
+        </div>
+        <!--Radio button ends here-->
+         
+     <!--Radio button-->
+        <div class="m-3">
+        <span class= "font-weight-bold">Will you recommend this to others?</span><br>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input">Definitely
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input">Maybe
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input">No
+            </label>
+          </div>
+        </div>
+        <!--Radio button ends here-->
+        
+        <!-- Text area control-->
+        <div class="form-group m-3">
+            <label class= "font-weight-bold">Any comments or suggestions:</label>
+            <textarea class="form-control" rows="5"></textarea>
+        </div>
+      <!-- Text area ends here-->
+       <!-- Submit button-->
+        <div class="text-center"  >
+        <button type="submit" class="btn btn-success btn-lg  font-weight-bold">Submit</button>
+        <!-- Submit button ends here-->
+        </div>
+      </form>
+      <!-- Form ends here-->
+    </div>
+</body>
+</html>

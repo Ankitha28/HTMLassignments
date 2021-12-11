@@ -1,0 +1,14 @@
+body {
+     background-image: url('product.jpeg');
+     background-size: cover;
+    }
+.form{
+    
+    opacity: 0.7;
+    color: white;
+    font-family: Helvetica;
+}
+.form-check-label {
+ color:lightsteelblue;
+ font-weight: 700;
+}
